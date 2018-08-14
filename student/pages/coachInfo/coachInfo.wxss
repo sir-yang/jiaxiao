@@ -1,0 +1,182 @@
+
+.status_txt {
+    margin-top: 80rpx;
+    font-size: 28rpx;
+    color: #666;
+    text-align: center;
+}
+
+.info_box {
+    position: relative;
+    margin-top: 60rpx;
+    padding-top: 75rpx;
+}
+.avt_img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    z-index: 2;
+}
+.info_cont {
+    position: relative;
+    width: 580rpx;
+    height: 330rpx;
+    margin: auto;
+    padding-top: 80rpx;
+    background: #fff;
+    border-radius: 15rpx;
+    -webkit-border-radius: 15rpx;
+    -moz-border-radius: 15rpx;
+    -o-border-radius: 15rpx;
+    box-shadow: 0 0 18rpx 2rpx rgba(31, 89, 231, .24);
+    -webkit-box-shadow: 0 0 18rpx 2rpx rgba(31, 89, 231, .24);
+    -moz-box-shadow: 0 0 18rpx 2rpx rgba(31, 89, 231, .24);
+    -o-box-shadow: 0 0 18rpx 2rpx rgba(31, 89, 231, .24);
+}
+
+.info_cont .flex_center .flex_start:last-child {
+    margin-left: 100rpx;
+}
+
+.license_box {
+    position: absolute;
+    right: 0;
+    top: 20rpx;
+    width: 147rpx;
+    height: 40rpx;
+    background: #487dff;
+    font-size: 24rpx;
+    color: #fff;
+    text-align: center;
+    line-height: 40rpx;
+    border-radius: 20rpx 0 0 20rpx;
+    -webkit-border-radius: 20rpx 0 0 20rpx;
+    -moz-border-radius: 20rpx 0 0 20rpx;
+    -o-border-radius: 20rpx 0 0 20rpx;
+}
+
+.gradeImg {
+    width: 24rpx;
+    height: 24rpx;
+}
+.commentImg {
+    width: 25rpx;
+    height: 24rpx;
+}
+.collection_btn {
+    width: 188rpx;
+    height: 50rpx;
+    margin: 30rpx auto 0;
+    line-height: 50rpx;
+    border-radius: 25rpx;
+    -webkit-border-radius: 25rpx;
+    -moz-border-radius: 25rpx;
+    -o-border-radius: 25rpx;
+    background: #fdbf48;
+    text-align: center;
+}
+.collectionImg {
+    width: 23rpx;
+    height: 21rpx;
+}
+
+.info_btn {
+    width: 430rpx;
+    height: 80rpx;
+    margin: 60rpx auto 0;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+    -webkit-border-radius: 40rpx;
+    -moz-border-radius: 40rpx;
+    -o-border-radius: 40rpx;
+    border: 1rpx solid #487dff;
+    text-align: center;
+    font-size: 30rpx;
+}
+.contact_btn {
+    margin-top: 80rpx;
+    background: #487dff;
+    color: #fff;
+    box-shadow: 0 7rpx 21rpx 7rpx rgba(72, 124, 255, 0.29);
+}
+
+/* 弹框 */
+.tk_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 99;
+}
+.tk_content_box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 520rpx;
+    z-index: 100;
+}
+.tk_content {
+    padding: 30rpx 40rpx 60rpx;
+    background: #fff;
+    border-radius: 15rpx;
+    -webkit-border-radius: 15rpx;
+    -moz-border-radius: 15rpx;
+    -o-border-radius: 15rpx;
+}
+
+.tk_title {
+    font-size: 32rpx;
+    color: #000;
+    text-align: center;
+}
+
+.row_txt {
+    margin-top: 90rpx;
+    text-align: center;
+    line-height: 52rpx;
+    font-size: 26rpx;
+    color: #999;
+}
+
+.tk_btn {
+    width: 384rpx;
+    height: 72rpx;
+    margin: auto;
+    line-height: 72rpx;
+    text-align: center;
+    border: 1rpx solid #487dff;
+    border-radius: 36rpx;
+    -webkit-border-radius: 36rpx;
+    -moz-border-radius: 36rpx;
+    -o-border-radius: 36rpx;
+    font-size: 28rpx;
+}
+
+.carry_on {
+    color: #fff;
+    background: #487dff;
+    margin-top: 120rpx;
+    margin-bottom: 45rpx;
+}
+
+.sure_cancel {
+    margin-bottom: 20rpx;
+    color: #487dff;
+}
+
+.tk_content_box .closeTk {
+    display: block;
+    margin: 40rpx auto 0;
+    width: 59rpx;
+    height: 59rpx;
+}

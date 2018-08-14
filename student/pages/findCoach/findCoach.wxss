@@ -1,0 +1,26 @@
+
+.content_box {
+    padding-top: 100rpx;
+}
+
+.waite_time {
+    margin-top: 45rpx;
+    margin-bottom: 220rpx;
+    font-size: 66rpx;
+    color: #333;
+    text-align: center;
+}
+.cancel_btn {
+    width: 430rpx;
+    height: 80rpx;
+    margin: auto;
+    line-height: 80rpx;
+    border: 1rpx solid #487dff;
+    text-align: center;
+    border-radius: 40rpx;
+    -webkit-border-radius: 40rpx;
+    -moz-border-radius: 40rpx;
+    -o-border-radius: 40rpx;
+    font-size: 30rpx;
+    color: #487dff;
+}

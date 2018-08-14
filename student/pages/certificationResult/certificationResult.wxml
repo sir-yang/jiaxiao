@@ -1,0 +1,9 @@
+<view class='txt_center'>
+    <image class='status_img' src='/images/icon_1.png'></image>
+    <view class='status_desc f26 c3'>资料已提交至平台，等待审核</view>
+
+    <view class='btn_box'>
+        <view class='btn_item view-tutorial' catchtap='navitoPage' data-types='tutorial'>查看学车指南</view>
+        <view class='btn_item go-index' catchtap='navitoPage' data-types='tutorial'>进入首页</view>
+    </view>
+</view>

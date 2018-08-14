@@ -1,0 +1,7 @@
+
+<view>
+    <view class='identity'>请选择身份进入</view>
+
+    <view class='index_btn coach_btn' catchtap='importEven' data-types='coach'>教练</view>
+    <view class='index_btn student_btn' catchtap='importEven' data-types='student'>学员</view>
+</view>

@@ -1,0 +1,33 @@
+
+Page {
+    background: #f2f3f4;
+}
+
+.ipt_box {
+    height: 105rpx;
+    line-height: 105rpx;
+}
+.ipt_box .lable {
+    width: 120rpx;
+}
+
+.radio {
+    margin-left: 70rpx;
+    font-size: 28rpx;
+    color: #999;
+}
+.radio radio {
+    margin-right: 10rpx;
+}
+
+.submit_btn {
+    line-height: 92rpx;
+    margin: 80rpx 30rpx 0;
+    background: #487dff;
+    border-radius: 8rpx;
+    -webkit-border-radius: 8rpx;
+    -moz-border-radius: 8rpx;
+    -o-border-radius: 8rpx;
+    color: #fff;
+    font-size: 32rpx;
+}

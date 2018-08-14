@@ -1,0 +1,42 @@
+<view>
+    <view class='status_txt'>已为您成功分配教练！</view>
+
+    <view class='info_box'>
+        <image class='avt_img' src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+        <view class='info_cont box_sizing'>
+            <view class='license_box'>川A5658D</view>
+            <view class='f28 c3 txt_center'>张德龙</view>
+            <view class='f28 c3 txt_center mt10 mb20'>13628295659</view>
+            <view class='flex_center'>
+                <view class='flex_start flex_items'>
+                    <image class='gradeImg' src='/images/grade.png'></image>
+                    <view class='f24 c9 ml10'>4.0分</view>
+                </view>
+                <view class='flex_start flex_items'>
+                    <image class='commentImg' src='/images/comment.png'></image>
+                    <view class='f24 c9 ml10'>57条</view>
+                </view>
+            </view>
+            <view class='collection_btn flex_center flex_items' catchtap='coachInfoEven' data-types='collect'>
+                <image class='collectionImg' src='/images/collection.png'></image>
+                <view class='f26 cf ml10'>收藏教练</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='info_btn contact_btn' catchtap='coachInfoEven' data-types='call'>联系教练</view>
+    <view class='info_btn cst' catchtap='coachInfoEven' data-types='cancel'>取消约课</view>
+
+</view>
+
+<!-- 弹框 -->
+<view class='tk_modal {{reserTk}}'></view>
+<view class='tk_content_box {{reserTk}}'>
+    <view class='tk_content'>
+        <view class='tk_title'>取消约课</view>
+        <view class='row_txt'>现在取消约课，你将被扣除信用分5分确定取消订单吗？</view>
+        <view class='tk_btn carry_on' catchtap='coachInfoEven' data-types='close'>继续预课</view>
+        <view class='tk_btn sure_cancel' catchtap='coachInfoEven' data-types='sure'>确定取消</view>
+    </view>
+    <image src='/images/close.png' class='closeTk' catchtap='coachInfoEven' data-types='close'></image>
+</view>

@@ -1,0 +1,41 @@
+
+Page {
+    background: #fff;
+}
+
+.status_img{
+    width: 258rpx;
+    height: 158rpx;
+    margin-top: 158rpx;
+    margin-bottom: 60rpx;
+}
+
+.btn_item {
+    width: 406rpx;
+    height: 76rpx;
+    margin: auto;
+    line-height: 76rpx;
+    border-radius: 38rpx;
+    -webkit-border-radius: 38rpx;
+    -moz-border-radius: 38rpx;
+    -o-border-radius: 38rpx;
+    font-size: 30rpx;
+}
+.view-tutorial {
+    margin-top: 120rpx;
+    color: #fff;
+    background: #487dff;
+    box-shadow: 0 7rpx 21rpx 7rpx rgba(72, 125, 255, 0.3);
+    -webkit-box-shadow: 0 7rpx 21rpx 7rpx rgba(72, 125, 255, 0.3);
+    -moz-box-shadow: 0 7rpx 21rpx 7rpx rgba(72, 125, 255, 0.3);
+    -o-box-shadow: 0 7rpx 21rpx 7rpx rgba(72, 125, 255, 0.3);
+}
+.go-index {
+    margin-top: 60rpx;
+    color: #487dff;
+    border: 1rpx solid #487dff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}

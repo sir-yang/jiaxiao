@@ -1,0 +1,61 @@
+<view>
+    <image class='banner_img' src='/images/student/banner.png'></image>
+    <view class='about_class_btn' catchtap='indexEven' data-types='startReser'>
+        <image src='/images/student/about_class.png'></image>
+        <view class='text'>我要约课</view>
+    </view>
+</view>
+
+<view class='tk_modal {{reserTk}}'></view>
+<view class='tk_content_box {{reserTk}}'>
+    <view class='tk_content'>
+        <form report-submit='true' bindsubmit="submitDeposit">
+            <view class='f32 c0 txt_center'>我要约课</view>
+            <view class='reser_box'>
+                <view>选择约课模式：</view>
+                <radio-group class="radio-group" name="driver" bindchange="radioChange">
+                    <label class="radio f26 c9">
+                        <radio value="1" color="#487dff" />实时
+                    </label>
+                    <label class="radio f26 c9">
+                        <radio value="0" checked color='#487dff' />预约
+                    </label>
+                </radio-group>
+            </view>
+            <view class='reser_box'>
+                <view>选择科目：</view>
+                <picker class='flex1 pos'>
+                    <input type='text' class='f26 c9' disabled placeholder='请选择科目' value='科目二' />
+                    <image class='more' src='/images/more.png'></image>
+                </picker>
+            </view>
+            <view class='reser_box'>
+                <view>选择项目：</view>
+                <picker class='flex1 pos'>
+                    <input type='text' class='f26 c9' disabled placeholder='请选择项目' value='直角转弯' />
+                    <image class='more' src='/images/more.png'></image>
+                </picker>
+            </view>
+            <view class='reser_box'>
+                <view>选择场地：</view>
+                <picker class='flex1 pos'>
+                    <input type='text' class='f26 c9' disabled placeholder='请选择场地' value='青白江练车场' />
+                    <image class='more' src='/images/more.png'></image>
+                </picker>
+            </view>
+            <view class='reser_box'>
+                <view>上车地点：</view>
+                <view class=' flex1 pos flex_between flex_items' catchtap='indexEven' data-types='address'>
+                    <view class='flex_start flex_items f26 c9'>
+                        <image class='address_img' src='/images/address.png'></image>
+                        <input type='text' class='f26 c9 ml10' name="address" disabled placeholder='请选择上车地点' value='成都市九里堤创新大厦' />
+                    </view>
+                    <image class='more' src='/images/more.png'></image>
+                </view>
+            </view>
+
+            <button form-type='submit' class='start_reser_btn'>立即约课</button>
+        </form>
+    </view>
+    <image class='closeTk' src='/images/close.png' catchtap='indexEven' data-types='closeReser'></image>
+</view>

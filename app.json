@@ -1,0 +1,29 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#487dff",
+        "navigationBarTitleText": "鹿鸣学车",
+        "navigationBarTextStyle": "white"
+    },
+    "subPackages": [
+        {
+            "root": "student",
+            "pages": [
+                "pages/certification/certification",
+                "pages/certificationResult/certificationResult",
+                "pages/index/index",
+                "pages/findCoach/findCoach",
+                "pages/coachInfo/coachInfo"
+            ]
+        },
+        {
+            "root": "coach",
+            "pages": [
+                "pages/certification/certification"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+
+<view class='content_box'>
+    <view class='f32 c3 txt_center pb35'>正在为您寻找教练，请稍后</view>
+    <view class='f26 c9 txt_center mt10'>已等待</view>
+    <view class='waite_time'>{{waiteTime}}</view>
+
+    <view class='cancel_btn'>取消约课</view>
+</view>
